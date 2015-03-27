@@ -40,6 +40,7 @@ var isContained = false;
 
 var recurseFunc = function(node){
 
+
   if(node.value === target){
     isContained = true
     return true;
